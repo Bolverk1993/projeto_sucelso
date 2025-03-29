@@ -1,0 +1,14 @@
+.organizacao-geral{
+    display: flex;
+    text-align: center;
+    background-color: blanchedalmond;
+    color: #29252500;
+    font-size: 18px;
+}
+
+.login{
+    align-items: center;
+    border: blue 3px solid;
+    color: grey;
+
+}
