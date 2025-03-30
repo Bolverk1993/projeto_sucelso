@@ -1,0 +1,61 @@
+#registro__container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+    background-image: url(../IMG/logo_completa_trasparente.png) ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto 20px ;
+}
+#registro img{
+    height: 100%;
+    width: auto;
+    padding-top: 1%;
+    opacity: 0.6; 
+    display: block;  
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fca00c;
+    margin: 0 auto;
+    width:300px ;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border: #3085d1 3px solid;
+    color: #3085d1;
+    padding: 15px;
+}
+.registro p{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.registro button{
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 8px;
+    
+}
+.registro button:hover{
+    transition-duration: 0.3s;
+    color: #fca00c;
+    background-color: #3085d1;
+    border: #fca00c solid 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}

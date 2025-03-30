@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../STYLE/style.css">
+    <link rel="stylesheet" href="../../STYLE/responsivity.css">
+    <link rel="stylesheet" href="../../STYLE/registros.css">
+    <link rel="icon" href="../../IMG/Simbolo.png">
+    <title>coordenador</title>
+</head>
+<body class="organizacao-geral">
+    <header id="cabecalho">
+        <img src="../../IMG/logo_completa.png" alt="logo da empresa">
+        <h1>
+            Senai-Sucelso
+        </h1>
+    </header>
+    
+    <main>
+        <h3>Bem vindo(a) <span id="nomeUsuario"></span>!</h3>
+
+        <div id="registro__container">
+            <div class="registro">
+                <p>Modificar registros de professor ou coordenador:</p>
+                <label for="incluir_excluir">Qual ação deseja tomar??</label>
+                <select name="incluir_excluir" id="incluir_excluir">
+                    <option value="escolha">--------</option>
+                    <option value="adicionar">Adicionar</option>
+                    <option value="consultar">Consultar</option>
+                    <option value="editar">Editar</option>
+                    <option value="remover">Remover</option>
+                </select>
+
+                <label for="cargo">qual o tipo de cargo a ser modificado?</label>
+                <select name="cargo" id="cargo">
+                    <option value="escolha">--------</option>
+                    <option value="coordenador">Coordenador(a)</option>
+                <option value="professor">Professor(a)</option>
+                </select>
+
+                <p>Por favor confirme sua identidade:</p>
+                <label for="login-user">Usuário:</label>
+                <input type="text" id="login-user" placeholder="Login">
+                <br>
+                <label for="password-user">Senha:</label>
+                <input type="text" id="password-user" placeholder="Password">
+                <br> 
+                <label for="codigo-coordenador">código:</label>
+                <input type="text" id="codigo-coordenador" placeholder="Código do coordenador">
+                <br>
+                <button id="botao-coordenador">Prosseguir</button>
+            </div>
+         </div>
+      
+    </main>
+
+    <footer id="rodape">
+        <div class="links__git"> 
+            <ul>
+                <li><a href="link do git ">Álvaro</a></li>
+                <li><a href="link do git ">Luã</a></li>
+                <li><a href="link do git ">Maria Clara</a></li>
+                <li><a href="link do git ">Mario</a></li>
+                <li><a href="https://github.com/Bolverk1993">Vítor</a></li>
+            </ul>
+        </div>
+    <p>&copy; 2025</p>
+<img src="../../IMG/Logo_nome.png" alt="logo simples">
+    </footer>
+</body>
+</html>
