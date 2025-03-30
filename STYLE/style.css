@@ -49,6 +49,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 main{padding-top: 80px;
 
 }
+main h3{
+    margin-top: 35px;
+    margin-left: 35px;
+    text-align: left;
+}
+
 #login__container{
     position: absolute;
     top: 50%;
@@ -100,6 +106,7 @@ main{padding-top: 80px;
     margin-top: 10px;
     padding: 4px;
     border-radius: 8px;
+    color: #3085d1;
     
 }
 .login button:hover{
